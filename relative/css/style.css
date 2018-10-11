@@ -1,0 +1,147 @@
+div{
+  position: relative;
+}
+.main-block {
+  background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
+  background-position: top left;
+  width: 400px;
+  height: 450px;
+  border: 1px solid black;
+  
+}
+.chimney {
+  width: 20px;
+  height: 60px;
+  background: black;
+  left: 100px;
+  top: 60px;
+}
+.roof {
+  width: 0;
+  height: 0;
+  border-left: 130px solid transparent;
+  border-right: 130px solid transparent;
+  border-bottom: 110px solid red;
+  top: -10px;
+  left: 50px;
+}
+.house {
+  width: 200px;
+  height: 200px;
+  background: rgb(209, 10, 216);
+  top: -10px;
+  left:80px;
+  border: 1px solid black;
+}
+.window1, .window2, .window4, .window5, .window6{
+  width: 50px;
+  height: 50px;
+  background: cyan;
+  z-index: 2;
+  border: 3px solid rgb(44, 4, 4);
+}
+.window1 {
+  top: -190px;
+  left: 88px;
+}
+.window2 {
+  top: -270px;
+  left: 88px;
+}
+.balcony {
+  width: 50px;
+  height: 25px;
+  background: rgb(170, 40, 17);
+ 
+  border: 3px solid rgb(44, 4, 4);
+  top: 205px;
+  left: 155px;
+  
+  top: -382px;
+  left: 153px;
+}
+.window4 {
+  top: -438px;
+  left: 220px;
+}
+.window5 {
+  top: -413px;
+  left: 220px;
+}
+.window6 {
+  border-radius: 100%;
+  top: -645px;
+  left: 153px;
+}
+.door {
+  width: 60px; 
+  height: 90px; 
+  background:rgb(184, 143, 8); 
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(90, 43, 4);
+  border-radius: 50% 50% 0 0;
+  top: -163px;
+  left: 150px;
+  z-index: 2;
+}
+.door1{
+  width: 10px; 
+  height: 10px;
+  background: rgb(41, 31, 2);
+  border-radius: 50%;
+  top: -200px;
+  left: 195px;
+  z-index: 2;
+}
+.rama1, .rama2, .rama3, .rama4, .rama5, .rama8 {
+  width: 3px;
+  height: 50px;
+  background:rgb(44, 4, 4);
+  z-index: 2;
+}
+.rama1{
+  top:-604px;
+  left: 115px;
+}
+.rama2{
+  top:-572px;
+  left: 115px;
+}
+
+.rama4{
+  top:-753px;
+  left: 247px;
+}
+.rama5{
+  top:-722px;
+  left: 247px;
+}
+.rama8{
+  top:-954px;
+  left: 180px;
+}
+.rama6, .rama7{
+  width: 50px;
+  height: 3px;
+  background:rgb(44, 4, 4);
+  z-index: 2;
+}
+.rama6{
+  top: -749px;
+  left: 91px;
+}
+.rama7{
+  top: -749px;
+  left: 223px;
+}
+.threshold {
+  height: 0; 
+  width: 100px;
+  border-bottom: 50px solid rgb(108, 199, 17);
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  top: -733px;
+  left: 93px;
+}
+  

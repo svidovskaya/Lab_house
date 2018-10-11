@@ -1,0 +1,144 @@
+div {
+  position: absolute;
+}
+.main-block {
+  background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
+  background-position: top left;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+.door {
+  width: 60px; 
+  height: 90px; 
+  background:rgb(184, 143, 8); 
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(90, 43, 4);
+  border-radius: 50% 50% 0 0;
+  top: 256px;
+  left: 152px;
+  z-index: 2;}
+.house {
+  width: 200px;
+  height: 200px;
+  background: rgb(209, 10, 216);
+  top: 150px;
+  left:80px;
+  border: 1px solid black;
+}
+.threshold {
+  height: 0; 
+  width: 100px;
+  border-bottom: 50px solid rgb(108, 199, 17);
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  top: 350px;
+  left: 93px;
+}
+.roof {
+  width: 0;
+  height: 0;
+  border-left: 130px solid transparent;
+  border-right: 130px solid transparent;
+  border-bottom: 110px solid red;
+  top: 50px;
+  left: 50px;
+}
+.chimney {
+  width: 20px;
+  height: 60px;
+  background: black;
+  left: 100px;
+  top: 60px;
+}
+
+.door1 {
+  width: 10px; 
+  height: 10px;
+  background: rgb(41, 31, 2);
+  border-radius: 50%;
+  top: 310px;
+  left: 197px;
+  z-index: 2;
+}
+.window1, .window2, .window3, .window4,.window6{
+  width: 50px;
+  height: 50px;
+  background: cyan;
+  z-index: 2;
+  border: 3px solid rgb(44, 4, 4);
+}
+.window1 {
+  top: 245px;
+  left: 90px;
+}
+.window2 {
+  top: 180px;
+  left: 90px;
+  
+}
+.window3 {
+  top: 245px;
+  left: 220px;
+}
+.window4 {
+  top: 180px;
+  left: 220px;
+}
+
+.window6 {
+  border-radius: 100%;
+  top: 90px;
+  left: 155px;
+}
+.balcony {
+  width: 50px;
+  height: 25px;
+  background: rgb(170, 40, 17);
+  z-index: 2;
+  border: 3px solid rgb(44, 4, 4);
+  top: 205px;
+  left: 155px;
+}
+.rama1, .rama2, .rama4, .rama5, .rama8 {
+  width: 3px;
+  height: 50px;
+  background:rgb(44, 4, 4);
+  z-index: 2;
+}
+.rama1{
+  top:248px;
+  left: 117px;
+}
+.rama2{
+  top:183px;
+  left: 117px;
+}
+
+.rama4{
+  top:183px;
+  left: 247px;
+}
+.rama5{
+  top:248px;
+  left: 247px;
+}
+.rama8{
+  top:93px;
+  left: 182px;
+}
+.rama6, .rama7{
+  width: 50px;
+  height: 3px;
+  background:rgb(44, 4, 4);
+  z-index: 2;
+}
+.rama6{
+  top: 270px;
+  left: 93px;
+}
+.rama7{
+  top: 270px;
+  left: 223px;
+}
